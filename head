@@ -1,0 +1,65 @@
+
+<!-- 网页图标 -->
+<script type="text/javascript" language="javascript">
+　　//Setting ico for cnblogs
+　　var linkObject = document.createElement('link');
+　　linkObject.rel = "shortcut icon";
+　　linkObject.href = "https://files.cnblogs.com/files/-TNT-/ap75q-a1htg-001.ico";//图标地址
+　　document.getElementsByTagName("head")[0].appendChild(linkObject);
+</script>
+
+<!-- 进度条 -->
+<div id="top-progress-bar" style="position: fixed; top: 0px; left: 0px; right: 0px; background-color: rgb(244, 67, 54); height: 2px; width: 0%; transition: width 0.2s ease 0s, opacity 0.6s ease 0s;"></div>
+<!-- 右上角github-->
+<!-----
+<a href="https://github.com/TNTtian" target="_blank">
+　　<img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1;" src="http://images.cnblogs.com/cnblogs_com/jackson0714/779808/o_github.png" >
+</a>
+----->
+<header class="header">
+  <div class="header-inner">
+    <!-- 头部banner-->
+    <div class="site-brand-container">
+      <div class="site-nav-toggle">
+        <div class="toggle" aria-label="切换导航栏"><span class="toggle-line toggle-line-first"></span> <span
+            class="toggle-line toggle-line-middle"></span> <span class="toggle-line toggle-line-last"></span></div>
+      </div>
+      <div class="site-meta"><a href="https://github.com/makergyt/cnblogs-theme-next" class="brand" rel="start"><span class="logo-line-before"><i></i></span>
+          <h1 class="site-title">Trotyl°'s Blog</h1><span class="logo-line-after"><i></i></span>
+        </a></div>
+      <div class="site-nav-right">
+        <div class="toggle popup-trigger"><i class="fa fa-search fa-fw fa-lg"></i></div>
+      </div>
+    </div>
+    <!-- 导航-->
+    <nav class="site-nav">
+      <ul id="menu" class="menu">
+                <li class="menu-item menu-item-home menu-item-active"><a class="menu-item-inner" href="https://github.com/makergyt/cnblogs-theme-next"
+            rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i>首页</a></li>
+
+        <li class="menu-item menu-item-archives"><a class="menu-item-inner" href="https://github.com/makergyt/cnblogs-theme-next"
+        rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i>归档</a></li>
+
+        <li class="menu-item menu-item-search"><a class="menu-item-inner search-wrap"><i
+              class="fa fa-search fa-fw"></i><input type="text" id="q" onkeydown="return zzk_go_enter(event);"
+              class="input_my_zzk" placeholder="按下Enter搜索"></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-----打赏----->
+<script>
+window.tctipConfig = {
+        imagePrefix: "http://files.cnblogs.com/files/kdy11",
+        cssPrefix:     "http://files.cnblogs.com/files/kdy11",
+        buttonImageId:  4,
+        buttonTip:  "dashang",
+        list:{
+            alipay: {qrimg: "https://images.cnblogs.com/cnblogs_com/-TNT-/1794554/o_200627091930%E6%9A%82%E4%B8%8D%E6%94%AF%E6%8C%81.PNG"},
+            weixin:{qrimg: "https://images.cnblogs.com/cnblogs_com/-TNT-/1794554/o_200627091930%E6%9A%82%E4%B8%8D%E6%94%AF%E6%8C%81.PNG"},//https://images.cnblogs.com/cnblogs_com/-TNT-/1794785/o_200628012033%E6%8D%95%E8%8E%B7.PNG
+        }
+};
+
+</script>
+<script src="https://blog-static.cnblogs.com/files/zouwangblog/dashang.js"></script>
+
